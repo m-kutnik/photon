@@ -6,9 +6,19 @@ $radius: 2px;
 
 $dark-content: #1f2024;
 $dark-background: #111;
-$main-color: #17A095;
+$main-color: #012647;
+$primary-color: #17a095;
+$secondary-color: #3d315b;
 $main-color-invert: findColorInvert($main-color);
-$second-color: #3D315B;
+$primary-color-invert: findColorInvert($primary-color);
+$secondary-color-invert: findColorInvert($secondary-color);
+
+// 3rd party
+
+$twitter: #1DA1F2;
+$twitter-invert: findColorInvert($twitter);
+
+//
 
 $primary: $main-color;
 $primary-invert: $main-color-invert;
@@ -36,5 +46,19 @@ $box-background-color: $white-ter;
 // Card
 $card-background-color: $white-ter;
 
-// 6. Import the rest of Bulma
+// Color Map
+
+@import "~bulma/sass/utilities/derived-variables.sass";
+$addColors: (
+  "main":($main-color, $main-color-invert),
+  "secondary":($secondary-color, $secondary-color-invert),
+  "twitter":($twitter, $twitter-invert),
+);
+$colors: map-merge($colors, $addColors);
+
+// Import the rest of Bulma
 @import "../bulma/bulma";
+
+html {
+  overflow-y: auto;
+}
