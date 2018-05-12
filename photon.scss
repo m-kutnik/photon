@@ -62,3 +62,7 @@ $colors: map-merge($colors, $addColors);
 html {
   overflow-y: auto;
 }
+
+.button.is-round {
+  border-radius: 200000px;
+}
