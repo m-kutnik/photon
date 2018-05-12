@@ -1,0 +1,23 @@
+{
+  "name": "photon",
+  "version": "0.1.0",
+  "author": "Mike <gimp2312@gmail.com>",
+  "description": "Custom Bulma theme",
+  "main": "photon.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-kutnik/photon.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "sass",
+    "flexbox",
+    "responsive",
+    "dark",
+    "bulma"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.1"
+  }
+}

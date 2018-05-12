@@ -1,0 +1,40 @@
+// 1. Import the initial variables
+@import "node_modules/bulma/sass/utilities/initial-variables";
+@import "node_modules/bulma/sass/utilities/functions";
+
+$radius: 2px;
+
+$dark-content: #1f2024;
+$dark-background: #111;
+$main-color: #17A095;
+$main-color-invert: findColorInvert($main-color);
+$second-color: #3D315B;
+
+$primary: $main-color;
+$primary-invert: $main-color-invert;
+$body-background-color: $dark-background;
+$link: $main-color;
+$link-hover: lighten($main-color, 15%);
+
+// Dark theme- color inversion
+
+$black: hsl(0, 0%, 100%);
+$black-bis: hsl(0, 0%, 98%);
+$black-ter: hsl(0, 0%, 96%);
+$grey-darker: hsl(0, 0%, 86%);
+$grey-dark: hsl(0, 0%, 71%);
+$grey: hsl(0, 0%, 48%);
+$grey-light: hsl(0, 0%, 29%);
+$grey-lighter: hsl(0, 0%, 21%);
+$white-ter: hsl(0, 0%, 14%);
+$white-bis: hsl(0, 0%, 7%);
+$white: hsl(0, 0%, 4%);
+
+// Box
+$box-background-color: $white-ter;
+
+// Card
+$card-background-color: $white-ter;
+
+// 6. Import the rest of Bulma
+@import "node_modules/bulma";
