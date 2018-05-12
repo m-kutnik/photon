@@ -23,8 +23,8 @@ $twitter-invert: findColorInvert($twitter);
 $primary: $primary-color;
 $primary-invert: $primary-color-invert;
 $body-background-color: $dark-background;
-$link: $main-color;
-$link-hover: lighten($main-color, 15%);
+$link: $primary-color;
+$link-hover: lighten($primary-color, 15%);
 
 // Dark theme- color inversion
 
