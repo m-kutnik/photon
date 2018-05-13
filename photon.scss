@@ -63,14 +63,10 @@ html {
   overflow-y: auto;
 }
 
-.button > span {
-  margin-top: -3px;
-}
-
 .button.is-round {
   border-radius: 200000px;
 }
 
-.button.is-medium, .button.is-large {
+.button.is-large {
   padding: 0 3rem;
 }
